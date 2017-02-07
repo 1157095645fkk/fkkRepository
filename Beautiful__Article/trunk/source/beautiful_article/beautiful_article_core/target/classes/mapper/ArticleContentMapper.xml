@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cn.damai.beautiful_article.core.dao.ArticleContentMapper">
+    <sql id="column">content,data_state</sql>
+    <resultMap id="articleContentResultMap" type="ArticleContent">
+        <id property="articleContentId" column="article_content_id" />
+        <result property="content" column="content" />
+        <result property="dataState" column="data_state" />
+
+    </resultMap>
+    <!-- 插入信息并返回主键id -->
+    <insert id="save" parameterType="ArticleContent" useGeneratedKeys="true" keyProperty="article_content_id">
+        INSERT INTO article_content  (content,data_state)   VALUES(#{content},#{dataState})
+    </insert>
+
+    <!-- 更新 -->
+    <update id="update" parameterType="ArticleContent">
+        UPDATE article_content
+        <set>
+            <if test="content != null" >content=#{content},</if>
+            <if test="dataState != null" >data_state=#{dataState},</if>
+        </set>
+        WHERE article_content_id=#{articleContentId}
+    </update>
+    <!--根据id删除 -->
+    <delete id="deleteById">
+        DELETE FROM article_content WHERE article_content_id=#{articleContentId}
+    </delete>
+
+    <!-- 根据id查询 -->
+    <select id="findById" resultMap="articleContentResultMap">
+        SELECT articleContentId,<include refid="column" />  FROM article_content WHERE article_content_id = #{articleContentId} LIMIT  0,1
+    </select>
+</mapper>

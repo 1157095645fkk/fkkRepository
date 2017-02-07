@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cn.damai.beautiful_article.core.dao.ArticleScanMapper">
+    <sql id="column">article_id,user_id,user_like_state</sql>
+    <resultMap id="articleScanResultMap" type="ArticleScan">
+        <id property="articleScanId" column="article_scan_id" />
+        <result property="articleId" column="article_id" />
+        <result property="userId" column="user_id" />
+        <result property="userLikeState" column="user_like_state" />
+
+    </resultMap>
+    <!-- 插入信息并返回主键id -->
+    <insert id="save" parameterType="ArticleScan" useGeneratedKeys="true" keyProperty="article_scan_id">
+        INSERT INTO article_scan  (article_id,user_id,user_like_state)   VALUES(#{articleId},#{userId},#{userLikeState})
+    </insert>
+
+    <!-- 更新 -->
+    <update id="update" parameterType="ArticleScan">
+        UPDATE article_scan
+        <set>
+            <if test="articleId != null" >article_id=#{articleId},</if>
+            <if test="userId != null" >user_id=#{userId},</if>
+            <if test="userLikeState != null" >user_like_state=#{userLikeState},</if>
+        </set>
+        WHERE article_scan_id=#{articleScanId}
+    </update>
+    <!--根据id删除 -->
+    <delete id="deleteById">
+        DELETE FROM article_scan WHERE article_scan_id=#{articleScanId}
+    </delete>
+
+    <!-- 根据id查询 -->
+    <select id="findById" resultMap="articleScanResultMap">
+        SELECT articleScanId,<include refid="column" />  FROM article_scan WHERE article_scan_id = #{articleScanId} LIMIT  0,1
+    </select>
+</mapper>

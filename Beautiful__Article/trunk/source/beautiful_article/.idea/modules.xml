@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/beautiful_article.iml" filepath="$PROJECT_DIR$/beautiful_article.iml" />
+      <module fileurl="file://$PROJECT_DIR$/beautiful_article_common/beautiful_article_common.iml" filepath="$PROJECT_DIR$/beautiful_article_common/beautiful_article_common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/beautiful_article_core/beautiful_article_core.iml" filepath="$PROJECT_DIR$/beautiful_article_core/beautiful_article_core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/beautiful_article_war/beautiful_article_war.iml" filepath="$PROJECT_DIR$/beautiful_article_war/beautiful_article_war.iml" />
+    </modules>
+  </component>
+</project>

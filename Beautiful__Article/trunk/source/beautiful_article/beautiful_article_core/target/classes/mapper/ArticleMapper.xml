@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cn.damai.beautiful_article.core.dao.ArticleMapper">
+    <sql id="column">article_title,user_id,create_time,article_content_id,opterater_time,data_state</sql>
+    <resultMap id="articleResultMap" type="Article">
+        <id property="articleId" column="article_id" />
+        <result property="articleTitle" column="article_title" />
+        <result property="userId" column="user_id" />
+        <result property="createTime" column="create_time" />
+        <result property="articleContentId" column="article_content_id" />
+        <result property="opteraterTime" column="opterater_time" />
+        <result property="dataState" column="data_state" />
+
+    </resultMap>
+    <!-- 插入信息并返回主键id -->
+    <insert id="save" parameterType="Article" useGeneratedKeys="true" keyProperty="article_id">
+        INSERT INTO article  (article_title,user_id,create_time,article_content_id,opterater_time,data_state)   VALUES(#{articleTitle},#{userId},#{createTime},#{articleContentId},#{opteraterTime},#{dataState})
+    </insert>
+
+    <!-- 更新 -->
+    <update id="update" parameterType="Article">
+        UPDATE article
+        <set>
+            <if test="articleTitle != null" >article_title=#{articleTitle},</if>
+            <if test="userId != null" >user_id=#{userId},</if>
+            <if test="createTime != null" >create_time=#{createTime},</if>
+            <if test="articleContentId != null" >article_content_id=#{articleContentId},</if>
+            <if test="opteraterTime != null" >opterater_time=#{opteraterTime},</if>
+            <if test="dataState != null" >data_state=#{dataState},</if>
+        </set>
+        WHERE article_id=#{articleId}
+    </update>
+    <!--根据id删除 -->
+    <delete id="deleteById">
+        DELETE FROM article WHERE article_id=#{articleId}
+    </delete>
+
+    <!-- 根据id查询 -->
+    <select id="findById" resultMap="articleResultMap">
+        SELECT articleId,<include refid="column" />  FROM article WHERE article_id = #{articleId} LIMIT  0,1
+    </select>
+</mapper>

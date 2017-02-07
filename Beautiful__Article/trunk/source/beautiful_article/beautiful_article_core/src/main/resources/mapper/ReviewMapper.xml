@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cn.damai.beautiful_article.core.dao.ReviewMapper">
+    <sql id="column">user_id,article_id,parent_review_id,create_time,review_content,date_state</sql>
+    <resultMap id="reviewResultMap" type="Review">
+        <id property="reviewId" column="review_id" />
+        <result property="userId" column="user_id" />
+        <result property="articleId" column="article_id" />
+        <result property="parentReviewId" column="parent_review_id" />
+        <result property="createTime" column="create_time" />
+        <result property="reviewContent" column="review_content" />
+        <result property="dateState" column="date_state" />
+
+    </resultMap>
+    <!-- 插入信息并返回主键id -->
+    <insert id="save" parameterType="Review" useGeneratedKeys="true" keyProperty="review_id">
+        INSERT INTO review  (user_id,article_id,parent_review_id,create_time,review_content,date_state)   VALUES(#{userId},#{articleId},#{parentReviewId},#{createTime},#{reviewContent},#{dateState})
+    </insert>
+
+    <!-- 更新 -->
+    <update id="update" parameterType="Review">
+        UPDATE review
+        <set>
+            <if test="userId != null" >user_id=#{userId},</if>
+            <if test="articleId != null" >article_id=#{articleId},</if>
+            <if test="parentReviewId != null" >parent_review_id=#{parentReviewId},</if>
+            <if test="createTime != null" >create_time=#{createTime},</if>
+            <if test="reviewContent != null" >review_content=#{reviewContent},</if>
+            <if test="dateState != null" >date_state=#{dateState},</if>
+        </set>
+        WHERE review_id=#{reviewId}
+    </update>
+    <!--根据id删除 -->
+    <delete id="deleteById">
+        DELETE FROM review WHERE review_id=#{reviewId}
+    </delete>
+
+    <!-- 根据id查询 -->
+    <select id="findById" resultMap="reviewResultMap">
+        SELECT reviewId,<include refid="column" />  FROM review WHERE review_id = #{reviewId} LIMIT  0,1
+    </select>
+</mapper>
