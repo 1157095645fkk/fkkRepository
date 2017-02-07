@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="d9217e6c-e549-4900-9844-9e03e95b2fcd" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/target/classes/cn/damai/beautiful_article/core/dao/UserMapper.class" afterPath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/target/classes/cn/damai/beautiful_article/core/dao/UserMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/target/classes/cn/damai/beautiful_article/core/domain/SystemLog.class" afterPath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/target/classes/cn/damai/beautiful_article/core/domain/SystemLog.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/target/classes/cn/damai/beautiful_article/core/domain/User.class" afterPath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/target/classes/cn/damai/beautiful_article/core/domain/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/target/classes/cn/damai/beautiful_article/core/redis/MemberDao.class" afterPath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/target/classes/cn/damai/beautiful_article/core/redis/MemberDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/target/classes/cn/damai/beautiful_article/core/redis/MemberDaoImpl$1.class" afterPath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/target/classes/cn/damai/beautiful_article/core/redis/MemberDaoImpl$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/target/classes/cn/damai/beautiful_article/core/redis/MemberDaoImpl$2.class" afterPath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/target/classes/cn/damai/beautiful_article/core/redis/MemberDaoImpl$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/target/classes/cn/damai/beautiful_article/core/redis/MemberDaoImpl$3.class" afterPath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/target/classes/cn/damai/beautiful_article/core/redis/MemberDaoImpl$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/target/classes/cn/damai/beautiful_article/core/redis/MemberDaoImpl$4.class" afterPath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/target/classes/cn/damai/beautiful_article/core/redis/MemberDaoImpl$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/target/classes/cn/damai/beautiful_article/core/redis/MemberDaoImpl$5.class" afterPath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/target/classes/cn/damai/beautiful_article/core/redis/MemberDaoImpl$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/target/classes/cn/damai/beautiful_article/core/redis/MemberDaoImpl.class" afterPath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/target/classes/cn/damai/beautiful_article/core/redis/MemberDaoImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/target/classes/cn/damai/beautiful_article/core/service/MyBaseService.class" afterPath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/target/classes/cn/damai/beautiful_article/core/service/MyBaseService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/target/classes/cn/damai/beautiful_article/core/service/UserService.class" afterPath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/target/classes/cn/damai/beautiful_article/core/service/UserService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/target/classes/cn/damai/beautiful_article/core/serviceImpl/SystemLogServiceImpl.class" afterPath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/target/classes/cn/damai/beautiful_article/core/serviceImpl/SystemLogServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/target/classes/cn/damai/beautiful_article/core/serviceImpl/UserServiceImpl.class" afterPath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/target/classes/cn/damai/beautiful_article/core/serviceImpl/UserServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/target/classes/cn/damai/beautiful_article/core/serviceutils/SMSUtils.class" afterPath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/target/classes/cn/damai/beautiful_article/core/serviceutils/SMSUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/target/test-classes/cn/damai/beautiful_article/core/ServiceTest/TestDemo.class" afterPath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/target/test-classes/cn/damai/beautiful_article/core/ServiceTest/TestDemo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_war/target/beautiful_article_war-0.0.1-SNAPSHOT/WEB-INF/classes/cn/damai/beautiful_article/action/LoginController.class" afterPath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_war/target/beautiful_article_war-0.0.1-SNAPSHOT/WEB-INF/classes/cn/damai/beautiful_article/action/LoginController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_war/target/beautiful_article_war-0.0.1-SNAPSHOT/WEB-INF/classes/cn/damai/beautiful_article/action/RegisterController.class" afterPath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_war/target/beautiful_article_war-0.0.1-SNAPSHOT/WEB-INF/classes/cn/damai/beautiful_article/action/RegisterController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_war/target/beautiful_article_war-0.0.1-SNAPSHOT/WEB-INF/lib/beautiful_article_common-0.0.1-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_war/target/beautiful_article_war-0.0.1-SNAPSHOT/WEB-INF/lib/beautiful_article_common-0.0.1-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_war/target/beautiful_article_war-0.0.1-SNAPSHOT/WEB-INF/lib/beautiful_article_core-0.0.1-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_war/target/beautiful_article_war-0.0.1-SNAPSHOT/WEB-INF/lib/beautiful_article_core-0.0.1-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_war/target/classes/cn/damai/beautiful_article/action/LoginController.class" afterPath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_war/target/classes/cn/damai/beautiful_article/action/LoginController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trunk/source/beautiful_article/.idea/workspace.xml" afterPath="$PROJECT_DIR$/trunk/source/beautiful_article/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_common/beautiful_article_common.iml" afterPath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_common/beautiful_article_common.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/beautiful_article_core.iml" afterPath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/beautiful_article_core.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/dao/UserMapper.java" afterPath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/dao/UserMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/domain/SystemLog.java" afterPath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/domain/SystemLog.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/domain/User.java" afterPath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/domain/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/redis/MemberDao.java" afterPath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/redis/MemberDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/redis/MemberDaoImpl.java" afterPath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/redis/MemberDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/service/UserService.java" afterPath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/service/UserService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/serviceImpl/SystemLogServiceImpl.java" afterPath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/serviceImpl/SystemLogServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/serviceImpl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/serviceImpl/UserServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/serviceutils/SMSUtils.java" afterPath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/serviceutils/SMSUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/src/main/resources/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/src/main/resources/mapper/UserMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/src/test/java/cn/damai/beautiful_article/core/ServiceTest/TestDemo.java" afterPath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/src/test/java/cn/damai/beautiful_article/core/ServiceTest/TestDemo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/target/classes/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/target/classes/mapper/UserMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_war/beautiful_article_war.iml" afterPath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_war/beautiful_article_war.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_war/src/main/java/cn/damai/beautiful_article/action/LoginController.java" afterPath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_war/src/main/java/cn/damai/beautiful_article/action/LoginController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_war/src/main/java/cn/damai/beautiful_article/action/RegisterController.java" afterPath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_war/src/main/java/cn/damai/beautiful_article/action/RegisterController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_war/src/main/resources/redis.properties" afterPath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_war/src/main/resources/redis.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_war/src/main/webapp/WEB-INF/views/main.jsp" afterPath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_war/src/main/webapp/WEB-INF/views/main.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_war/src/main/webapp/WEB-INF/views/main_part/main_top_unlogin.jsp" afterPath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_war/src/main/webapp/WEB-INF/views/main_part/main_top_unlogin.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_war/src/main/webapp/WEB-INF/views/register.jsp" afterPath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_war/src/main/webapp/WEB-INF/views/register.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_war/src/main/webapp/css/style.css" afterPath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_war/src/main/webapp/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_war/src/main/webapp/js/main.js" afterPath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_war/src/main/webapp/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_war/src/main/webapp/main.jsp" afterPath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_war/src/main/webapp/main.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_war/target/beautiful_article_war-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_war/target/beautiful_article_war-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_war/target/beautiful_article_war-0.0.1-SNAPSHOT/WEB-INF/classes/redis.properties" afterPath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_war/target/beautiful_article_war-0.0.1-SNAPSHOT/WEB-INF/classes/redis.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_war/target/beautiful_article_war-0.0.1-SNAPSHOT/WEB-INF/views/main.jsp" afterPath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_war/target/beautiful_article_war-0.0.1-SNAPSHOT/WEB-INF/views/main.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_war/target/beautiful_article_war-0.0.1-SNAPSHOT/WEB-INF/views/main_part/main_top_unlogin.jsp" afterPath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_war/target/beautiful_article_war-0.0.1-SNAPSHOT/WEB-INF/views/main_part/main_top_unlogin.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_war/target/beautiful_article_war-0.0.1-SNAPSHOT/WEB-INF/views/register.jsp" afterPath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_war/target/beautiful_article_war-0.0.1-SNAPSHOT/WEB-INF/views/register.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_war/target/beautiful_article_war-0.0.1-SNAPSHOT/css/style.css" afterPath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_war/target/beautiful_article_war-0.0.1-SNAPSHOT/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_war/target/beautiful_article_war-0.0.1-SNAPSHOT/js/main.js" afterPath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_war/target/beautiful_article_war-0.0.1-SNAPSHOT/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_war/target/beautiful_article_war-0.0.1-SNAPSHOT/main.jsp" afterPath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_war/target/beautiful_article_war-0.0.1-SNAPSHOT/main.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_war/target/classes/redis.properties" afterPath="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_war/target/classes/redis.properties" />
+    </list>
+    <ignored path="Beautiful__Article.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Beautiful__Article" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="RegisterController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_war/src/main/java/cn/damai/beautiful_article/action/RegisterController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1525">
+              <caret line="81" column="45" selection-start-line="81" selection-start-column="33" selection-end-line="81" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_war/src/main/java/cn/damai/beautiful_article/action/LoginController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SystemLogServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/serviceImpl/SystemLogServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+              <folding>
+                <element signature="e#693#694#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/service/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserMapper.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/src/main/resources/mapper/UserMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="346">
+              <caret line="50" column="62" selection-start-line="50" selection-start-column="62" selection-end-line="50" selection-end-column="62" />
+              <folding>
+                <marker date="1481265367205" expanded="true" signature="291:427" placeholder="select user_... user" />
+                <marker date="1481265367205" expanded="true" signature="506:653" placeholder="select user_... user" />
+                <marker date="1481265367205" expanded="true" signature="728:786" placeholder="SELECT count... USER" />
+                <marker date="1481265367205" expanded="true" signature="865:920" placeholder="SELECT count... USER" />
+                <marker date="1481265367205" expanded="true" signature="1106:1340" placeholder="INSERT INTO user... " />
+                <marker date="1481265367205" expanded="true" signature="1464:1606" placeholder="UPDATE user " />
+                <marker date="1481265367205" expanded="true" signature="1677:1715" placeholder="DELETE FROM " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/serviceImpl/UserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="850">
+              <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/domain/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/serviceImpl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_war/src/main/java/cn/damai/beautiful_article/action/BaseController.java" />
+        <option value="$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/serviceImpl/SystemLogServiceImpl.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1370" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Beautiful__Article" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Beautiful__Article" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Beautiful__Article" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Beautiful__Article">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="trunk">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Beautiful__Article">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="xpath.settings" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/trunk/source/beautiful_article" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\樊康康\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\IDEA_workspace\Beautiful__Article" />
+          <option name="myCopyRoot" value="D:\IDEA_workspace\Beautiful__Article" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\IDEA_workspace\Beautiful__Article" />
+          <option name="myCopyRoot" value="D:\IDEA_workspace\Beautiful__Article" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d9217e6c-e549-4900-9844-9e03e95b2fcd" name="Default" comment="" />
+      <created>1480469334941</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1480469334941</updated>
+      <workItem from="1480469336373" duration="44000" />
+      <workItem from="1482456526025" duration="1299000" />
+      <workItem from="1482741434389" duration="1117000" />
+      <workItem from="1482746646939" duration="1396000" />
+      <workItem from="1484188167216" duration="641000" />
+      <workItem from="1484615880229" duration="49000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4546000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23664123" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_war/src/main/java/cn/damai/beautiful_article/action/RegisterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1525">
+          <caret line="81" column="45" selection-start-line="81" selection-start-column="33" selection-end-line="81" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_war/src/main/java/cn/damai/beautiful_article/action/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/serviceImpl/SystemLogServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+          <folding>
+            <element signature="e#693#694#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/src/main/resources/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1481265367205" expanded="true" signature="291:427" placeholder="select user_... user" />
+            <marker date="1481265367205" expanded="true" signature="506:653" placeholder="select user_... user" />
+            <marker date="1481265367205" expanded="true" signature="728:786" placeholder="SELECT count... USER" />
+            <marker date="1481265367205" expanded="true" signature="865:920" placeholder="SELECT count... USER" />
+            <marker date="1481265367205" expanded="true" signature="1106:1340" placeholder="INSERT INTO user... " />
+            <marker date="1481265367205" expanded="true" signature="1464:1606" placeholder="UPDATE user " />
+            <marker date="1481265367205" expanded="true" signature="1677:1715" placeholder="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/serviceImpl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_war/src/main/java/cn/damai/beautiful_article/action/RegisterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1575">
+          <caret line="81" column="45" selection-start-line="81" selection-start-column="33" selection-end-line="81" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_war/src/main/java/cn/damai/beautiful_article/action/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/serviceImpl/SystemLogServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+          <folding>
+            <element signature="e#693#694#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/src/main/resources/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1481265367205" expanded="true" signature="291:427" placeholder="select user_... user" />
+            <marker date="1481265367205" expanded="true" signature="506:653" placeholder="select user_... user" />
+            <marker date="1481265367205" expanded="true" signature="728:786" placeholder="SELECT count... USER" />
+            <marker date="1481265367205" expanded="true" signature="865:920" placeholder="SELECT count... USER" />
+            <marker date="1481265367205" expanded="true" signature="1106:1340" placeholder="INSERT INTO user... " />
+            <marker date="1481265367205" expanded="true" signature="1464:1606" placeholder="UPDATE user " />
+            <marker date="1481265367205" expanded="true" signature="1677:1715" placeholder="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/serviceImpl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_war/src/main/java/cn/damai/beautiful_article/action/RegisterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1575">
+          <caret line="81" column="45" selection-start-line="81" selection-start-column="33" selection-end-line="81" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_war/src/main/java/cn/damai/beautiful_article/action/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/serviceImpl/SystemLogServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#693#694#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/src/main/resources/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding>
+            <marker date="1481265367205" expanded="true" signature="291:427" placeholder="select user_... user" />
+            <marker date="1481265367205" expanded="true" signature="506:653" placeholder="select user_... user" />
+            <marker date="1481265367205" expanded="true" signature="728:786" placeholder="SELECT count... USER" />
+            <marker date="1481265367205" expanded="true" signature="865:920" placeholder="SELECT count... USER" />
+            <marker date="1481265367205" expanded="true" signature="1106:1340" placeholder="INSERT INTO user... " />
+            <marker date="1481265367205" expanded="true" signature="1464:1606" placeholder="UPDATE user " />
+            <marker date="1481265367205" expanded="true" signature="1677:1715" placeholder="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/serviceImpl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="57" column="42" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_war/src/main/java/cn/damai/beautiful_article/action/RegisterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="28" column="54" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_war/src/main/java/cn/damai/beautiful_article/action/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_war/src/main/java/cn/damai/beautiful_article/action/BaseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_war/src/main/java/cn/damai/beautiful_article/action/RegisterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1525">
+          <caret line="81" column="45" selection-start-line="81" selection-start-column="33" selection-end-line="81" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_war/src/main/java/cn/damai/beautiful_article/action/BaseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="59" column="59" selection-start-line="59" selection-start-column="59" selection-end-line="59" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_war/src/main/java/cn/damai/beautiful_article/action/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/serviceImpl/SystemLogServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+          <folding>
+            <element signature="e#693#694#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/serviceImpl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trunk/source/beautiful_article/beautiful_article_core/src/main/resources/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="50" column="62" selection-start-line="50" selection-start-column="62" selection-end-line="50" selection-end-column="62" />
+          <folding>
+            <marker date="1481265367205" expanded="true" signature="291:427" placeholder="select user_... user" />
+            <marker date="1481265367205" expanded="true" signature="506:653" placeholder="select user_... user" />
+            <marker date="1481265367205" expanded="true" signature="728:786" placeholder="SELECT count... USER" />
+            <marker date="1481265367205" expanded="true" signature="865:920" placeholder="SELECT count... USER" />
+            <marker date="1481265367205" expanded="true" signature="1106:1340" placeholder="INSERT INTO user... " />
+            <marker date="1481265367205" expanded="true" signature="1464:1606" placeholder="UPDATE user " />
+            <marker date="1481265367205" expanded="true" signature="1677:1715" placeholder="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

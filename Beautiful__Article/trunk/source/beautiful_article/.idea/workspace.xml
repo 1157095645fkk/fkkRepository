@@ -1,0 +1,2287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="82456c17-ea87-4112-a2f6-7f07abdd714b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beautiful_article_core/target/classes/cn/damai/beautiful_article/core/dao/UserMapper.class" afterPath="$PROJECT_DIR$/beautiful_article_core/target/classes/cn/damai/beautiful_article/core/dao/UserMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beautiful_article_core/target/classes/cn/damai/beautiful_article/core/domain/SystemLog.class" afterPath="$PROJECT_DIR$/beautiful_article_core/target/classes/cn/damai/beautiful_article/core/domain/SystemLog.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beautiful_article_core/target/classes/cn/damai/beautiful_article/core/domain/User.class" afterPath="$PROJECT_DIR$/beautiful_article_core/target/classes/cn/damai/beautiful_article/core/domain/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beautiful_article_core/target/classes/cn/damai/beautiful_article/core/redis/MemberDao.class" afterPath="$PROJECT_DIR$/beautiful_article_core/target/classes/cn/damai/beautiful_article/core/redis/MemberDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beautiful_article_core/target/classes/cn/damai/beautiful_article/core/redis/MemberDaoImpl$1.class" afterPath="$PROJECT_DIR$/beautiful_article_core/target/classes/cn/damai/beautiful_article/core/redis/MemberDaoImpl$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beautiful_article_core/target/classes/cn/damai/beautiful_article/core/redis/MemberDaoImpl$2.class" afterPath="$PROJECT_DIR$/beautiful_article_core/target/classes/cn/damai/beautiful_article/core/redis/MemberDaoImpl$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beautiful_article_core/target/classes/cn/damai/beautiful_article/core/redis/MemberDaoImpl$3.class" afterPath="$PROJECT_DIR$/beautiful_article_core/target/classes/cn/damai/beautiful_article/core/redis/MemberDaoImpl$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beautiful_article_core/target/classes/cn/damai/beautiful_article/core/redis/MemberDaoImpl$4.class" afterPath="$PROJECT_DIR$/beautiful_article_core/target/classes/cn/damai/beautiful_article/core/redis/MemberDaoImpl$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beautiful_article_core/target/classes/cn/damai/beautiful_article/core/redis/MemberDaoImpl$5.class" afterPath="$PROJECT_DIR$/beautiful_article_core/target/classes/cn/damai/beautiful_article/core/redis/MemberDaoImpl$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beautiful_article_core/target/classes/cn/damai/beautiful_article/core/redis/MemberDaoImpl.class" afterPath="$PROJECT_DIR$/beautiful_article_core/target/classes/cn/damai/beautiful_article/core/redis/MemberDaoImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beautiful_article_core/target/classes/cn/damai/beautiful_article/core/service/MyBaseService.class" afterPath="$PROJECT_DIR$/beautiful_article_core/target/classes/cn/damai/beautiful_article/core/service/MyBaseService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beautiful_article_core/target/classes/cn/damai/beautiful_article/core/service/UserService.class" afterPath="$PROJECT_DIR$/beautiful_article_core/target/classes/cn/damai/beautiful_article/core/service/UserService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beautiful_article_core/target/classes/cn/damai/beautiful_article/core/serviceImpl/SystemLogServiceImpl.class" afterPath="$PROJECT_DIR$/beautiful_article_core/target/classes/cn/damai/beautiful_article/core/serviceImpl/SystemLogServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beautiful_article_core/target/classes/cn/damai/beautiful_article/core/serviceImpl/UserServiceImpl.class" afterPath="$PROJECT_DIR$/beautiful_article_core/target/classes/cn/damai/beautiful_article/core/serviceImpl/UserServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beautiful_article_core/target/classes/cn/damai/beautiful_article/core/serviceutils/SMSUtils.class" afterPath="$PROJECT_DIR$/beautiful_article_core/target/classes/cn/damai/beautiful_article/core/serviceutils/SMSUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beautiful_article_core/target/test-classes/cn/damai/beautiful_article/core/ServiceTest/TestDemo.class" afterPath="$PROJECT_DIR$/beautiful_article_core/target/test-classes/cn/damai/beautiful_article/core/ServiceTest/TestDemo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beautiful_article_war/target/beautiful_article_war-0.0.1-SNAPSHOT/WEB-INF/classes/cn/damai/beautiful_article/action/LoginController.class" afterPath="$PROJECT_DIR$/beautiful_article_war/target/beautiful_article_war-0.0.1-SNAPSHOT/WEB-INF/classes/cn/damai/beautiful_article/action/LoginController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beautiful_article_war/target/beautiful_article_war-0.0.1-SNAPSHOT/WEB-INF/classes/cn/damai/beautiful_article/action/RegisterController.class" afterPath="$PROJECT_DIR$/beautiful_article_war/target/beautiful_article_war-0.0.1-SNAPSHOT/WEB-INF/classes/cn/damai/beautiful_article/action/RegisterController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beautiful_article_war/target/beautiful_article_war-0.0.1-SNAPSHOT/WEB-INF/lib/beautiful_article_common-0.0.1-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/beautiful_article_war/target/beautiful_article_war-0.0.1-SNAPSHOT/WEB-INF/lib/beautiful_article_common-0.0.1-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beautiful_article_war/target/beautiful_article_war-0.0.1-SNAPSHOT/WEB-INF/lib/beautiful_article_core-0.0.1-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/beautiful_article_war/target/beautiful_article_war-0.0.1-SNAPSHOT/WEB-INF/lib/beautiful_article_core-0.0.1-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beautiful_article_war/target/classes/cn/damai/beautiful_article/action/LoginController.class" afterPath="$PROJECT_DIR$/beautiful_article_war/target/classes/cn/damai/beautiful_article/action/LoginController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beautiful_article_war/target/classes/cn/damai/beautiful_article/action/RegisterController.class" afterPath="$PROJECT_DIR$/beautiful_article_war/target/classes/cn/damai/beautiful_article/action/RegisterController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beautiful_article_common/beautiful_article_common.iml" afterPath="$PROJECT_DIR$/beautiful_article_common/beautiful_article_common.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beautiful_article_core/beautiful_article_core.iml" afterPath="$PROJECT_DIR$/beautiful_article_core/beautiful_article_core.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/dao/UserMapper.java" afterPath="$PROJECT_DIR$/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/dao/UserMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/domain/SystemLog.java" afterPath="$PROJECT_DIR$/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/domain/SystemLog.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/domain/User.java" afterPath="$PROJECT_DIR$/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/domain/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/redis/MemberDao.java" afterPath="$PROJECT_DIR$/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/redis/MemberDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/redis/MemberDaoImpl.java" afterPath="$PROJECT_DIR$/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/redis/MemberDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/service/UserService.java" afterPath="$PROJECT_DIR$/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/service/UserService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/serviceImpl/SystemLogServiceImpl.java" afterPath="$PROJECT_DIR$/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/serviceImpl/SystemLogServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/serviceImpl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/serviceImpl/UserServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/serviceutils/SMSUtils.java" afterPath="$PROJECT_DIR$/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/serviceutils/SMSUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beautiful_article_core/src/main/resources/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/beautiful_article_core/src/main/resources/mapper/UserMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beautiful_article_core/src/test/java/cn/damai/beautiful_article/core/ServiceTest/TestDemo.java" afterPath="$PROJECT_DIR$/beautiful_article_core/src/test/java/cn/damai/beautiful_article/core/ServiceTest/TestDemo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beautiful_article_core/target/classes/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/beautiful_article_core/target/classes/mapper/UserMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beautiful_article_war/beautiful_article_war.iml" afterPath="$PROJECT_DIR$/beautiful_article_war/beautiful_article_war.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beautiful_article_war/src/main/java/cn/damai/beautiful_article/action/LoginController.java" afterPath="$PROJECT_DIR$/beautiful_article_war/src/main/java/cn/damai/beautiful_article/action/LoginController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beautiful_article_war/src/main/java/cn/damai/beautiful_article/action/RegisterController.java" afterPath="$PROJECT_DIR$/beautiful_article_war/src/main/java/cn/damai/beautiful_article/action/RegisterController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beautiful_article_war/src/main/resources/redis.properties" afterPath="$PROJECT_DIR$/beautiful_article_war/src/main/resources/redis.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beautiful_article_war/src/main/webapp/WEB-INF/views/main.jsp" afterPath="$PROJECT_DIR$/beautiful_article_war/src/main/webapp/WEB-INF/views/main.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beautiful_article_war/src/main/webapp/WEB-INF/views/main_part/main_top_unlogin.jsp" afterPath="$PROJECT_DIR$/beautiful_article_war/src/main/webapp/WEB-INF/views/main_part/main_top_unlogin.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beautiful_article_war/src/main/webapp/WEB-INF/views/register.jsp" afterPath="$PROJECT_DIR$/beautiful_article_war/src/main/webapp/WEB-INF/views/register.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beautiful_article_war/src/main/webapp/css/style.css" afterPath="$PROJECT_DIR$/beautiful_article_war/src/main/webapp/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beautiful_article_war/src/main/webapp/js/main.js" afterPath="$PROJECT_DIR$/beautiful_article_war/src/main/webapp/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beautiful_article_war/src/main/webapp/main.jsp" afterPath="$PROJECT_DIR$/beautiful_article_war/src/main/webapp/main.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beautiful_article_war/target/beautiful_article_war-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/beautiful_article_war/target/beautiful_article_war-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beautiful_article_war/target/beautiful_article_war-0.0.1-SNAPSHOT/WEB-INF/classes/redis.properties" afterPath="$PROJECT_DIR$/beautiful_article_war/target/beautiful_article_war-0.0.1-SNAPSHOT/WEB-INF/classes/redis.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beautiful_article_war/target/beautiful_article_war-0.0.1-SNAPSHOT/WEB-INF/views/main.jsp" afterPath="$PROJECT_DIR$/beautiful_article_war/target/beautiful_article_war-0.0.1-SNAPSHOT/WEB-INF/views/main.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beautiful_article_war/target/beautiful_article_war-0.0.1-SNAPSHOT/WEB-INF/views/main_part/main_top_unlogin.jsp" afterPath="$PROJECT_DIR$/beautiful_article_war/target/beautiful_article_war-0.0.1-SNAPSHOT/WEB-INF/views/main_part/main_top_unlogin.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beautiful_article_war/target/beautiful_article_war-0.0.1-SNAPSHOT/WEB-INF/views/register.jsp" afterPath="$PROJECT_DIR$/beautiful_article_war/target/beautiful_article_war-0.0.1-SNAPSHOT/WEB-INF/views/register.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beautiful_article_war/target/beautiful_article_war-0.0.1-SNAPSHOT/css/style.css" afterPath="$PROJECT_DIR$/beautiful_article_war/target/beautiful_article_war-0.0.1-SNAPSHOT/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beautiful_article_war/target/beautiful_article_war-0.0.1-SNAPSHOT/js/main.js" afterPath="$PROJECT_DIR$/beautiful_article_war/target/beautiful_article_war-0.0.1-SNAPSHOT/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beautiful_article_war/target/beautiful_article_war-0.0.1-SNAPSHOT/main.jsp" afterPath="$PROJECT_DIR$/beautiful_article_war/target/beautiful_article_war-0.0.1-SNAPSHOT/main.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beautiful_article_war/target/classes/redis.properties" afterPath="$PROJECT_DIR$/beautiful_article_war/target/classes/redis.properties" />
+    </list>
+    <ignored path="beautiful_article.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/beautiful_article_war/target/" />
+    <ignored path="$PROJECT_DIR$/beautiful_article_core/target/" />
+    <ignored path="$PROJECT_DIR$/beautiful_article_common/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="beautiful_article">
+      <favorite_root url="file://$PROJECT_DIR$/beautiful_article_kernel" module="beautiful_article_kernel" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+        <favorite_root url="file://$PROJECT_DIR$/beautiful_article_kernel/lib" module="beautiful_article_kernel" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode">
+            <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/rules" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/rules/Timeout.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/rules/RunRules.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/rules/TestName.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/rules/TestRule.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/rules/Verifier.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/rules/RuleChain.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/rules/Stopwatch.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/rules/MethodRule.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/rules/TestWatcher.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/rules/TestWatchman.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/rules/DisableOnDebug.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/rules/ErrorCollector.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/rules/TemporaryFolder.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/rules/ExternalResource.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/rules/ExpectedException.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/rules/ExpectedExceptionMatcherBuilder.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+                <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/runner" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/runner/Result.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/runner/Runner.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/runner/manipulation" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/runner/manipulation/Filter.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/runner/manipulation/Sorter.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/runner/manipulation/Sortable.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/runner/manipulation/Filterable.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/runner/manipulation/NoTestsRemainException.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  </favorite_root>
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/runner/notification" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/runner/notification/Failure.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/runner/notification/RunListener.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/runner/notification/RunNotifier.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/runner/notification/StoppedByUserException.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/runner/notification/SynchronizedRunListener.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  </favorite_root>
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/runner/Request.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/runner/RunWith.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/runner/Computer.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/runner/JUnitCore.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/runner/Describable.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/runner/Description.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/runner/FilterFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/runner/FilterFactories.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/runner/FilterFactoryParams.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/runner/JUnitCommandLineParseResult.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+                <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/runners" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/runners/model" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/runners/model/Statement.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/runners/model/TestClass.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/runners/model/Annotatable.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/runners/model/RunnerBuilder.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/runners/model/FrameworkField.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/runners/model/FrameworkMember.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/runners/model/RunnerScheduler.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/runners/model/InitializationError.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/runners/model/TestTimedOutException.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/runners/model/MultipleFailureException.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/runners/model/NoGenericTypeParametersValidator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  </favorite_root>
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/runners/Suite.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/runners/JUnit4.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/runners/parameterized" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/runners/parameterized/TestWithParameters.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/runners/parameterized/ParametersRunnerFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/runners/parameterized/BlockJUnit4ClassRunnerWithParameters.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/runners/parameterized/BlockJUnit4ClassRunnerWithParametersFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  </favorite_root>
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/runners/AllTests.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/runners/ParentRunner.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/runners/MethodSorters.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/runners/Parameterized.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/runners/BlockJUnit4ClassRunner.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+                <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/internal" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/internal/runners" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/internal/runners/model" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                      <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/internal/runners/model/EachTestNotifier.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                      <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                      <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/internal/runners/model/MultipleFailureException.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    </favorite_root>
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/internal/runners/rules" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                      <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/internal/runners/rules/ValidationError.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                      <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/internal/runners/rules/RuleMemberValidator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    </favorite_root>
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/internal/runners/statements" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                      <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/internal/runners/statements/Fail.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                      <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/internal/runners/statements/RunAfters.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                      <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/internal/runners/statements/RunBefores.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                      <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/internal/runners/statements/InvokeMethod.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                      <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/internal/runners/statements/FailOnTimeout.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                      <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/internal/runners/statements/ExpectException.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    </favorite_root>
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/internal/runners/TestClass.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/internal/runners/TestMethod.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/internal/runners/ClassRoadie.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/internal/runners/SuiteMethod.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/internal/runners/FailedBefore.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/internal/runners/MethodRoadie.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/internal/runners/MethodValidator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/internal/runners/JUnit4ClassRunner.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/internal/runners/JUnit38ClassRunner.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/internal/runners/InitializationError.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/internal/runners/ErrorReportingRunner.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  </favorite_root>
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/internal/builders" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/internal/builders/NullBuilder.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/internal/builders/JUnit3Builder.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/internal/builders/JUnit4Builder.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/internal/builders/IgnoredBuilder.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/internal/builders/AnnotatedBuilder.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/internal/builders/IgnoredClassRunner.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/internal/builders/SuiteMethodBuilder.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/internal/builders/AllDefaultPossibilitiesBuilder.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  </favorite_root>
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/internal/matchers" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/internal/matchers/TypeSafeMatcher.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/internal/matchers/ThrowableCauseMatcher.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/internal/matchers/ThrowableMessageMatcher.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/internal/matchers/StacktracePrintingMatcher.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  </favorite_root>
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/internal/requests" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/internal/requests/ClassRequest.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/internal/requests/FilterRequest.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/internal/requests/SortingRequest.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  </favorite_root>
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/internal/Classes.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/internal/RealSystem.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/internal/Throwables.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/internal/JUnitSystem.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/internal/MethodSorter.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/internal/TextListener.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/internal/ComparisonCriteria.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/internal/ArrayComparisonFailure.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/internal/ExactComparisonCriteria.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/internal/InexactComparisonCriteria.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/internal/AssumptionViolatedException.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+                <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/matchers" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/matchers/JUnitMatchers.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+                <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/validator" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/validator/ValidateWith.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/validator/TestClassValidator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/validator/AnnotationValidator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/validator/AnnotationsValidator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/validator/PublicClassValidator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/validator/AnnotationValidatorFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+                <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/Rule.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/Test.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/After.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/Assert.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/Assume.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/Before.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/Ignore.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/experimental" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/experimental/max" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/experimental/max/MaxCore.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/experimental/max/MaxHistory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/experimental/max/CouldNotReadCoreException.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  </favorite_root>
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/experimental/results" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/experimental/results/FailureList.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/experimental/results/ResultMatchers.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/experimental/results/PrintableResult.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  </favorite_root>
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/experimental/runners" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/experimental/runners/Enclosed.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  </favorite_root>
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/experimental/theories" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/experimental/theories/internal" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                      <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/experimental/theories/internal/Assignments.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                      <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/experimental/theories/internal/EnumSupplier.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                      <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/experimental/theories/internal/BooleanSupplier.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                      <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/experimental/theories/internal/AllMembersSupplier.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                      <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/experimental/theories/internal/SpecificDataPointsSupplier.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                      <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/experimental/theories/internal/ParameterizedAssertionError.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    </favorite_root>
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/experimental/theories/suppliers" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                      <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/experimental/theories/suppliers/TestedOn.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                      <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/experimental/theories/suppliers/TestedOnSupplier.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    </favorite_root>
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/experimental/theories/Theory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/experimental/theories/Theories.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/experimental/theories/DataPoint.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/experimental/theories/DataPoints.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/experimental/theories/FromDataPoints.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/experimental/theories/ParameterSupplier.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/experimental/theories/ParameterSignature.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/experimental/theories/PotentialAssignment.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/experimental/theories/ParametersSuppliedBy.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  </favorite_root>
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/experimental/categories" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/experimental/categories/Category.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/experimental/categories/Categories.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/experimental/categories/CategoryValidator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/experimental/categories/ExcludeCategories.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/experimental/categories/IncludeCategories.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/experimental/categories/CategoryFilterFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  </favorite_root>
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/experimental/ParallelComputer.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+                <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/ClassRule.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/AfterClass.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/BeforeClass.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/FixMethodOrder.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/ComparisonFailure.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/org/junit/AssumptionViolatedException.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+            </favorite_root>
+            <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/junit" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/junit/runner" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/junit/runner/logo.gif" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/junit/runner/Version.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/junit/runner/smalllogo.gif" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/junit/runner/BaseTestRunner.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/junit/runner/TestRunListener.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/junit/textui" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/junit/textui/TestRunner.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/junit/textui/ResultPrinter.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/junit/framework" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/junit/framework/Test.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/junit/framework/Assert.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/junit/framework/TestCase.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/junit/framework/TestSuite.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/junit/framework/TestResult.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/junit/framework/Protectable.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/junit/framework/TestFailure.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/junit/framework/TestListener.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/junit/framework/ComparisonFailure.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/junit/framework/JUnit4TestAdapter.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/junit/framework/ComparisonCompactor.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/junit/framework/AssertionFailedError.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/junit/framework/JUnit4TestCaseFacade.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/junit/framework/JUnit4TestAdapterCache.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/junit/extensions" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/junit/extensions/TestSetup.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/junit/extensions/RepeatedTest.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/junit/extensions/TestDecorator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/junit/extensions/ActiveTestSuite.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+            </favorite_root>
+            <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/META-INF" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/META-INF/MANIFEST.MF" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/junit-4.12.jar!/LICENSE-junit.txt" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/beautiful_article_kernel/lib/hamcrest-core-1.3.jar" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode">
+            <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/hamcrest-core-1.3.jar!/org" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/hamcrest-core-1.3.jar!/org/hamcrest" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/hamcrest-core-1.3.jar!/org/hamcrest/core" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/hamcrest-core-1.3.jar!/org/hamcrest/core/Is.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/hamcrest-core-1.3.jar!/org/hamcrest/core/AllOf.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/hamcrest-core-1.3.jar!/org/hamcrest/core/AnyOf.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/hamcrest-core-1.3.jar!/org/hamcrest/core/Every.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/hamcrest-core-1.3.jar!/org/hamcrest/core/IsNot.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/hamcrest-core-1.3.jar!/org/hamcrest/core/IsNull.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/hamcrest-core-1.3.jar!/org/hamcrest/core/IsSame.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/hamcrest-core-1.3.jar!/org/hamcrest/core/IsEqual.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/hamcrest-core-1.3.jar!/org/hamcrest/core/IsAnything.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/hamcrest-core-1.3.jar!/org/hamcrest/core/DescribedAs.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/hamcrest-core-1.3.jar!/org/hamcrest/core/IsInstanceOf.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/hamcrest-core-1.3.jar!/org/hamcrest/core/StringContains.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/hamcrest-core-1.3.jar!/org/hamcrest/core/StringEndsWith.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/hamcrest-core-1.3.jar!/org/hamcrest/core/StringStartsWith.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/hamcrest-core-1.3.jar!/org/hamcrest/core/SubstringMatcher.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/hamcrest-core-1.3.jar!/org/hamcrest/core/CombinableMatcher.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/hamcrest-core-1.3.jar!/org/hamcrest/core/ShortcutCombination.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/hamcrest-core-1.3.jar!/org/hamcrest/core/IsCollectionContaining.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+                <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/hamcrest-core-1.3.jar!/org/hamcrest/internal" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/hamcrest-core-1.3.jar!/org/hamcrest/internal/ArrayIterator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/hamcrest-core-1.3.jar!/org/hamcrest/internal/SelfDescribingValue.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/hamcrest-core-1.3.jar!/org/hamcrest/internal/ReflectiveTypeFinder.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/hamcrest-core-1.3.jar!/org/hamcrest/internal/SelfDescribingValueIterator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+                <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/hamcrest-core-1.3.jar!/org/hamcrest/Factory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/hamcrest-core-1.3.jar!/org/hamcrest/Matcher.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/hamcrest-core-1.3.jar!/org/hamcrest/Condition.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/hamcrest-core-1.3.jar!/org/hamcrest/BaseMatcher.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/hamcrest-core-1.3.jar!/org/hamcrest/Description.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/hamcrest-core-1.3.jar!/org/hamcrest/CoreMatchers.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/hamcrest-core-1.3.jar!/org/hamcrest/CustomMatcher.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/hamcrest-core-1.3.jar!/org/hamcrest/MatcherAssert.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/hamcrest-core-1.3.jar!/org/hamcrest/FeatureMatcher.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/hamcrest-core-1.3.jar!/org/hamcrest/SelfDescribing.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/hamcrest-core-1.3.jar!/org/hamcrest/BaseDescription.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/hamcrest-core-1.3.jar!/org/hamcrest/TypeSafeMatcher.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/hamcrest-core-1.3.jar!/org/hamcrest/DiagnosingMatcher.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/hamcrest-core-1.3.jar!/org/hamcrest/StringDescription.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/hamcrest-core-1.3.jar!/org/hamcrest/CustomTypeSafeMatcher.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/hamcrest-core-1.3.jar!/org/hamcrest/TypeSafeDiagnosingMatcher.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+            </favorite_root>
+            <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/hamcrest-core-1.3.jar!/META-INF" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/hamcrest-core-1.3.jar!/META-INF/MANIFEST.MF" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="jar://$PROJECT_DIR$/beautiful_article_kernel/lib/hamcrest-core-1.3.jar!/LICENSE.txt" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/beautiful_article_kernel/src" module="beautiful_article_kernel" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/beautiful_article_kernel/src/main" module="beautiful_article_kernel" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/beautiful_article_kernel/src/main/java" module="beautiful_article_kernel" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/beautiful_article_kernel/src/main/java/SMSUtils.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/beautiful_article_kernel/src/main/resources" module="beautiful_article_kernel" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/beautiful_article_kernel/src/test" module="beautiful_article_kernel" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/beautiful_article_kernel/src/test/java" module="beautiful_article_kernel" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/beautiful_article_kernel/src/test/java/BaseTest.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/beautiful_article_kernel/src/test/resources" module="beautiful_article_kernel" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/beautiful_article_kernel/src/test/resources/spring" module="beautiful_article_kernel" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/beautiful_article_kernel/src/test/resources/spring/spring-mvc.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/beautiful_article_kernel/src/test/resources/spring/spring-redis.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/beautiful_article_kernel/src/test/resources/spring/spring-mybatis.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/beautiful_article_kernel/src/test/resources/spring/applicationContext.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/beautiful_article_kernel/src/test/resources/mybatis" module="beautiful_article_kernel" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/beautiful_article_kernel/src/test/resources/mybatis/mybatis-configuration.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/beautiful_article_kernel/src/test/resources/httl.properties" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/beautiful_article_kernel/src/test/resources/jdbc.properties" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/beautiful_article_kernel/src/test/resources/log4j.properties" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/beautiful_article_kernel/src/test/resources/redis.properties" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+          </favorite_root>
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/beautiful_article_kernel/target" module="beautiful_article_kernel" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/beautiful_article_kernel/target/generated-sources" module="beautiful_article_kernel" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/beautiful_article_kernel/target/generated-sources/annotations" module="beautiful_article_kernel" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+          </favorite_root>
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/beautiful_article_kernel/pom.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/beautiful_article_kernel/beautiful_article_kernel.iml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      </favorite_root>
+    </favorites_list>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="RegisterController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/beautiful_article_war/src/main/java/cn/damai/beautiful_article/action/RegisterController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2825">
+              <caret line="113" column="26" selection-start-line="113" selection-start-column="26" selection-end-line="113" selection-end-column="26" />
+              <folding>
+                <element signature="e#10177#10178#0" expanded="false" />
+                <element signature="e#10207#10208#0" expanded="false" />
+                <element signature="e#10253#10254#0" expanded="false" />
+                <element signature="e#10291#10292#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Member.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/domain/Member.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+              <folding>
+                <element signature="e#494#495#0" expanded="false" />
+                <element signature="e#519#520#0" expanded="false" />
+                <element signature="e#554#555#0" expanded="false" />
+                <element signature="e#582#583#0" expanded="false" />
+                <element signature="e#616#617#0" expanded="false" />
+                <element signature="e#647#648#0" expanded="false" />
+                <element signature="e#694#695#0" expanded="false" />
+                <element signature="e#734#735#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MemberDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/redis/MemberDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/beautiful_article_war/src/main/java/cn/damai/beautiful_article/action/LoginController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1275">
+              <caret line="84" column="9" selection-start-line="84" selection-start-column="9" selection-end-line="84" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyRealm.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/beautiful_article_war/src/main/java/cn/damai/beautiful_article/shiro/MyRealm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring-shiro.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/beautiful_article_war/src/main/resources/spring/spring-shiro.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/beautiful_article_war/src/main/java/cn/damai/beautiful_article/action/MainController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/serviceImpl/LoginServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="675">
+              <caret line="38" column="62" selection-start-line="38" selection-start-column="62" selection-end-line="38" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Jsp File" />
+        <option value="XSLT Stylesheet" />
+        <option value="Tag Library Descriptor" />
+        <option value="Interface" />
+        <option value="JavaScript File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/beautiful_article_war/src/main/resources/redis.properties" />
+        <option value="$PROJECT_DIR$/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/redis/redisTest.java" />
+        <option value="$PROJECT_DIR$/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/domain/User.java" />
+        <option value="$PROJECT_DIR$/beautiful_article_core/src/test/java/cn/damai/beautiful_article/core/ServiceTest/TestDemo.java" />
+        <option value="$PROJECT_DIR$/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/domain/SystemLog.java" />
+        <option value="$PROJECT_DIR$/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/domain/Article.java" />
+        <option value="$PROJECT_DIR$/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/domain/ArticleContent.java" />
+        <option value="$PROJECT_DIR$/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/domain/ArticleScan.java" />
+        <option value="$PROJECT_DIR$/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/domain/Category.java" />
+        <option value="$PROJECT_DIR$/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/domain/CategoryArticleRelation.java" />
+        <option value="$PROJECT_DIR$/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/domain/Review.java" />
+        <option value="$PROJECT_DIR$/beautiful_article_core/src/main/resources/mapper/Article.xml" />
+        <option value="$PROJECT_DIR$/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/dao/ArticleMapper.java" />
+        <option value="$PROJECT_DIR$/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/dao/ArticleContentMapper.java" />
+        <option value="$PROJECT_DIR$/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/dao/ArticleScan.java" />
+        <option value="$PROJECT_DIR$/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/dao/Category.java" />
+        <option value="$PROJECT_DIR$/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/dao/CategoryMapper.java" />
+        <option value="$PROJECT_DIR$/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/dao/ArticleScanMapper.java" />
+        <option value="$PROJECT_DIR$/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/dao/ReviewMapper.java" />
+        <option value="$PROJECT_DIR$/beautiful_article_core/src/main/resources/mapper/ArticleContentMapper.xml" />
+        <option value="$PROJECT_DIR$/beautiful_article_core/src/main/resources/mapper/ArticleScanMapper.xml" />
+        <option value="$PROJECT_DIR$/beautiful_article_core/src/main/resources/mapper/CategoryMapper.xml" />
+        <option value="$PROJECT_DIR$/beautiful_article_core/src/main/resources/mapper/CategoryArticleRelationMapper.xml" />
+        <option value="$PROJECT_DIR$/beautiful_article_core/src/main/resources/mapper/ReviewMapper.xml" />
+        <option value="$PROJECT_DIR$/beautiful_article_war/src/main/webapp/WEB-INF/views/dialog/myDialog.js" />
+        <option value="$PROJECT_DIR$/beautiful_article_war/src/main/webapp/js/myDialog.js" />
+        <option value="$PROJECT_DIR$/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/service/UserService.java" />
+        <option value="$PROJECT_DIR$/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/dao/UserMapper.java" />
+        <option value="$PROJECT_DIR$/beautiful_article_core/src/main/resources/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/beautiful_article_war/src/main/webapp/WEB-INF/views/dialog/myDialog.jsp" />
+        <option value="$PROJECT_DIR$/beautiful_article_war/src/main/webapp/css/style.css" />
+        <option value="$PROJECT_DIR$/beautiful_article_war/src/main/webapp/js/main2.js" />
+        <option value="$PROJECT_DIR$/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/serviceImpl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/serviceImpl/SystemLogServiceImpl.java" />
+        <option value="$PROJECT_DIR$/beautiful_article_war/src/main/webapp/js/view_js/login.js" />
+        <option value="$PROJECT_DIR$/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/vo/UserRegisterVo.java" />
+        <option value="$PROJECT_DIR$/beautiful_article_war/src/main/webapp/main.jsp" />
+        <option value="$PROJECT_DIR$/beautiful_article_war/src/main/webapp/WEB-INF/views/main.jsp" />
+        <option value="$PROJECT_DIR$/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/serviceutils/SMSUtils.java" />
+        <option value="$PROJECT_DIR$/beautiful_article_war/src/main/java/cn/damai/beautiful_article/action/BaseController.java" />
+        <option value="$PROJECT_DIR$/beautiful_article_war/src/main/webapp/js/main.js" />
+        <option value="$PROJECT_DIR$/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/redis/MemberDaoImpl.java" />
+        <option value="$PROJECT_DIR$/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/redis/MemberDao.java" />
+        <option value="$PROJECT_DIR$/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/vo/UserRegisterLoginVo.java" />
+        <option value="$PROJECT_DIR$/beautiful_article_common/src/main/java/cn/damai/beautiful_article/common/utils/SerializeUtil.java" />
+        <option value="$PROJECT_DIR$/beautiful_article_war/src/main/webapp/WEB-INF/views/register.jsp" />
+        <option value="$PROJECT_DIR$/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/service/LoginService.java" />
+        <option value="$PROJECT_DIR$/beautiful_article_war/src/main/webapp/WEB-INF/views/main_part/main_top_unlogin.jsp" />
+        <option value="$PROJECT_DIR$/beautiful_article_war/src/main/java/cn/damai/beautiful_article/action/LoginController.java" />
+        <option value="$PROJECT_DIR$/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/serviceImpl/LoginServiceImpl.java" />
+        <option value="$PROJECT_DIR$/beautiful_article_war/src/main/java/cn/damai/beautiful_article/action/RegisterController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\apache-maven-3.3.9\repository" />
+        <option name="mavenHome" value="D:/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Abstraction issuesJava</id>
+          </State>
+          <State>
+            <id>Android Lint</id>
+          </State>
+          <State>
+            <id>Class metricsJava</id>
+          </State>
+          <State>
+            <id>Class structureJava</id>
+          </State>
+          <State>
+            <id>Cloning issuesJava</id>
+          </State>
+          <State>
+            <id>DOM issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Declaration redundancyJava</id>
+          </State>
+          <State>
+            <id>DeclarationGroovy</id>
+          </State>
+          <State>
+            <id>Error handlingJava</id>
+          </State>
+          <State>
+            <id>Finalization issuesJava</id>
+          </State>
+          <State>
+            <id>Google App Engine</id>
+          </State>
+          <State>
+            <id>Google Web Toolkit issues</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>Inheritance issuesJava</id>
+          </State>
+          <State>
+            <id>Initialization issuesJava</id>
+          </State>
+          <State>
+            <id>Internationalization issuesJava</id>
+          </State>
+          <State>
+            <id>JBoss Seam issues</id>
+          </State>
+          <State>
+            <id>JSP Inspections</id>
+          </State>
+          <State>
+            <id>JUnit issuesJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>Numeric issuesJava</id>
+          </State>
+          <State>
+            <id>Packaging issuesJava</id>
+          </State>
+          <State>
+            <id>Performance issuesJava</id>
+          </State>
+          <State>
+            <id>Plugin DevKit</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsGroovy</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsJavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugsGroovy</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+          <State>
+            <id>Probable bugsJavaScript</id>
+          </State>
+          <State>
+            <id>Resource management issuesJava</id>
+          </State>
+          <State>
+            <id>Security issuesJava</id>
+          </State>
+          <State>
+            <id>Serialization issuesJava</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring CoreSpring</id>
+          </State>
+          <State>
+            <id>Threading issuesJava</id>
+          </State>
+          <State>
+            <id>Visibility issuesJava</id>
+          </State>
+          <State>
+            <id>XMLSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="1" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beautiful_article" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beautiful_article" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beautiful_article" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beautiful_article" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beautiful_article" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beautiful_article_war" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beautiful_article" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beautiful_article" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beautiful_article_war" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beautiful_article" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beautiful_article" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beautiful_article_war" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beautiful_article" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beautiful_article" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beautiful_article_war" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beautiful_article" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beautiful_article" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beautiful_article_core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beautiful_article" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beautiful_article" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beautiful_article_common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.24741083" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../damai_ewallet/WAP/trunk/source" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IDEA_workspace\Beautiful__Article\trunk\source\beautiful_article\beautiful_article_war\src\main\webapp\js\view_js" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.damai.beautiful_article.core.dao" />
+      <recent name="cn.damai.beautiful_article.core.serviceutils" />
+      <recent name="cn.damai.beautiful_article.common.utils" />
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IDEA_workspace\Beautiful__Article\trunk\source\beautiful_article\beautiful_article_war\src\main\webapp\css" />
+      <recent name="D:\IDEA_workspace\Beautiful__Article\trunk\source\beautiful_article\beautiful_article_war\src\main\webapp\js" />
+      <recent name="D:\IDEA_workspace\Beautiful__Article\trunk\source\beautiful_article\beautiful_article_war\src\main\webapp\WEB-INF\views\dialog" />
+      <recent name="D:\IDEA_workspace\Beautiful__Article\trunk\source\beautiful_article\beautiful_article_core\src\main\resources\mapper" />
+      <recent name="D:\IDEA_workspace\Beautiful__Aritle\source\beautiful_article\beautiful_article_core\src\main\resources\mapper" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.beautiful_article">
+    <configuration default="false" name="RegisterController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cn.damai.beautiful_article.action.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="cn.damai.beautiful_article.action.RegisterController" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="beautiful_article_war" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="UtilsTest.smsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cn.damai.beautiful_article.core.ServiceTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="beautiful_article_core" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="cn.damai.beautiful_article.core.ServiceTest" />
+      <option name="MAIN_CLASS_NAME" value="cn.damai.beautiful_article.core.ServiceTest.UtilsTest" />
+      <option name="METHOD_NAME" value="smsTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestDemo.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cn.damai.beautiful_article.core.redisTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="beautiful_article_core" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="cn.damai.beautiful_article.core.redisTest" />
+      <option name="MAIN_CLASS_NAME" value="cn.damai.beautiful_article.core.redisTest.TestDemo" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestDemo.testRedis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cn.damai.beautiful_article.core.redisTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="beautiful_article_core" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="cn.damai.beautiful_article.core.redisTest" />
+      <option name="MAIN_CLASS_NAME" value="cn.damai.beautiful_article.core.redisTest.TestDemo" />
+      <option name="METHOD_NAME" value="testRedis" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="redisTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cn.damai.beautiful_article.core.redis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="cn.damai.beautiful_article.core.redis.redisTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="beautiful_article_core" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings />
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="depsClasspath" value="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="beautiful_article_war" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="XSLT" factoryName="XSLT">
+      <option name="myOutputFile" />
+      <option name="myOpenOutputFile" value="false" />
+      <option name="myOpenInBrowser" value="false" />
+      <option name="mySmartErrorHandling" value="true" />
+      <option name="myRunnerPort" value="34873" />
+      <option name="myVmArguments" />
+      <option name="myWorkingDirectory" />
+      <option name="myModule" />
+      <option name="myJdk" />
+      <parameters />
+      <OutputType value="CONSOLE" save-to-file="false" />
+      <FileType name="XML" />
+      <JdkChoice value="FROM_MODULE" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <configuration default="false" name="beautiful_article" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.33" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8089/beautiful_article/main/view.do" />
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATING_POLICY" value="update-resources" />
+      <deployment>
+        <artifact name="beautiful_article_war:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/beautiful_article" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_beautiful_article_3" />
+        <option name="HTTP_PORT" value="8089" />
+        <option name="JNDI_PORT" value="1091" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52598" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="beautiful_article_war:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.beautiful_article" />
+      <item index="1" class="java.lang.String" itemvalue="Application.RegisterController" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.UtilsTest.smsTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestDemo.test" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TestDemo.testRedis" />
+      <item index="5" class="java.lang.String" itemvalue="Application.redisTest" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.redisTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.RegisterController" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestDemo.testRedis" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestDemo.test" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.UtilsTest.smsTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\樊康康\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\IDEA_workspace\Beautiful__Article\trunk\source\beautiful_article" />
+          <option name="myCopyRoot" value="D:\IDEA_workspace\Beautiful__Article\trunk\source\beautiful_article" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\IDEA_workspace\Beautiful__Article\trunk\source\beautiful_article\.idea" />
+          <option name="myCopyRoot" value="D:\IDEA_workspace\Beautiful__Article\trunk\source\beautiful_article\.idea" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\IDEA_workspace\Beautiful__Article\trunk\source\beautiful_article\beautiful_article_common" />
+          <option name="myCopyRoot" value="D:\IDEA_workspace\Beautiful__Article\trunk\source\beautiful_article\beautiful_article_common" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\IDEA_workspace\Beautiful__Article\trunk\source\beautiful_article\beautiful_article_core" />
+          <option name="myCopyRoot" value="D:\IDEA_workspace\Beautiful__Article\trunk\source\beautiful_article\beautiful_article_core" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\IDEA_workspace\Beautiful__Article\trunk\source\beautiful_article\beautiful_article_war" />
+          <option name="myCopyRoot" value="D:\IDEA_workspace\Beautiful__Article\trunk\source\beautiful_article\beautiful_article_war" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\IDEA_workspace\Beautiful__Article\trunk\source\beautiful_article" />
+          <option name="myCopyRoot" value="D:\IDEA_workspace\Beautiful__Article\trunk\source\beautiful_article" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="82456c17-ea87-4112-a2f6-7f07abdd714b" name="Default" comment="" />
+      <created>1477625469638</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1477625469638</updated>
+      <workItem from="1477625472373" duration="42221000" />
+      <workItem from="1478143901190" duration="1839000" />
+      <workItem from="1478222716055" duration="860000" />
+      <workItem from="1478481703341" duration="831000" />
+      <workItem from="1478854555012" duration="1685000" />
+      <workItem from="1479194233975" duration="3607000" />
+      <workItem from="1479274895038" duration="593000" />
+      <workItem from="1479275501426" duration="558000" />
+      <workItem from="1479276072160" duration="10104000" />
+      <workItem from="1479289550105" duration="1129000" />
+      <workItem from="1479290689712" duration="3376000" />
+      <workItem from="1479351339840" duration="3394000" />
+      <workItem from="1479354754479" duration="29547000" />
+      <workItem from="1480469412281" duration="2226000" />
+      <workItem from="1480647696783" duration="10026000" />
+      <workItem from="1480912879919" duration="1342000" />
+      <workItem from="1480986284444" duration="12388000" />
+      <workItem from="1481107073143" duration="1536000" />
+      <workItem from="1481249316735" duration="19244000" />
+      <workItem from="1481277519989" duration="370000" />
+      <workItem from="1481676919670" duration="61000" />
+      <workItem from="1484538533368" duration="15269000" />
+      <workItem from="1484615933702" duration="2100000" />
+      <workItem from="1484702354199" duration="617000" />
+      <workItem from="1486191603101" duration="8768000" />
+      <workItem from="1486343161925" duration="5132000" />
+      <workItem from="1486431607395" duration="1947000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestDemo_test - 2016.11.17 at 14h 06m 46s.xml">
+      <configuration name="TestDemo.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDemo_test - 2016.11.17 at 14h 11m 55s.xml">
+      <configuration name="TestDemo.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDemo_test - 2016.11.17 at 14h 14m 07s.xml">
+      <configuration name="TestDemo.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDemo_testRedis - 2016.11.17 at 14h 39m 23s.xml">
+      <configuration name="TestDemo.testRedis" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDemo_testRedis - 2016.11.17 at 14h 39m 57s.xml">
+      <configuration name="TestDemo.testRedis" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDemo_testRedis - 2016.11.17 at 14h 42m 20s.xml">
+      <configuration name="TestDemo.testRedis" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDemo_testService2 - 2016.11.02 at 20h 10m 01s.xml">
+      <configuration name="TestDemo.testService2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UtilsTest_smsTest - 2016.11.17 at 11h 35m 04s.xml">
+      <configuration name="UtilsTest.smsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UtilsTest_smsTest - 2016.11.17 at 11h 42m 37s.xml">
+      <configuration name="UtilsTest.smsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UtilsTest_smsTest - 2016.11.17 at 11h 48m 13s.xml">
+      <configuration name="UtilsTest.smsTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="180770000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22735043" sideWeight="0.2397882" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5253683" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27685326" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.61367524" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24961832" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38372093" sideWeight="0.7602118" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41571194" sideWeight="0.47881997" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.492635" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.4969743" order="0" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22735043" sideWeight="0.2397882" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.61367524" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23418804" sideWeight="0.7602118" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41709402" sideWeight="0.47881997" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14871795" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34529915" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17776097" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2991453" sideWeight="0.4969743" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/beautiful_article_war/src/main/java/cn/damai/beautiful_article/action/LoginController.java</url>
+          <line>81</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/beautiful_article_war/src/main/java/cn/damai/beautiful_article/action/RegisterController.java</url>
+          <line>61</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/beautiful_article_war/src/main/java/cn/damai/beautiful_article/action/RegisterController.java</url>
+          <line>189</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/redis/MemberDaoImpl.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/beautiful_article_common/src/main/java/cn/damai/beautiful_article/common/utils/SerializeUtil.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/beautiful_article_common/src/main/java/cn/damai/beautiful_article/common/utils/SerializeUtil.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="34" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="beautiful_article" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="beautiful_article" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/beautiful_article_war/src/main/webapp/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/vo/UserVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beautiful_article_war/src/main/webapp/js/main2.js" />
+    <entry file="file://$PROJECT_DIR$/beautiful_article_war/src/main/webapp/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="25" column="70" selection-start-line="25" selection-start-column="70" selection-end-line="25" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beautiful_article_war/src/main/resources/redis.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beautiful_article_core/src/test/java/cn/damai/beautiful_article/core/ServiceTest/UtilsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beautiful_article_war/src/main/webapp/js/view_js/myDialog.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beautiful_article_war/src/main/webapp/js/jquery-ui.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1975">
+          <caret line="11999" column="20" selection-start-line="11999" selection-start-column="20" selection-end-line="11999" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beautiful_article_war/src/main/webapp/js/md5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-375">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beautiful_article_war/src/main/webapp/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beautiful_article_war/src/main/webapp/js/view_js/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="22" column="14" selection-start-line="13" selection-start-column="4" selection-end-line="30" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beautiful_article_common/src/main/java/cn/damai/beautiful_article/common/utils/StringUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3500">
+          <caret line="161" column="26" selection-start-line="161" selection-start-column="26" selection-end-line="161" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.0.2.RELEASE/spring-data-redis-1.0.2.RELEASE-sources.jar!/org/springframework/data/redis/connection/RedisStringCommands.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="36" column="17" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/jdk1.8.0_77/src.zip!/java/io/ObjectOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="341" column="22" selection-start-line="341" selection-start-column="22" selection-end-line="341" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beautiful_article_common/src/main/java/cn/damai/beautiful_article/common/utils/VerifyCodeUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.0.2.RELEASE/spring-data-redis-1.0.2.RELEASE-sources.jar!/org/springframework/data/redis/core/RedisTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="120" column="0" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/redis/MemberDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding>
+            <element signature="e#1473#1936#0" expanded="false" />
+            <element signature="e#1935#1936#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beautiful_article_war/src/main/java/cn/damai/beautiful_article/action/BaseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beautiful_article_common/src/main/java/cn/damai/beautiful_article/common/utils/SerializeUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beautiful_article_war/src/main/webapp/WEB-INF/views/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/serviceImpl/SystemLogServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/vo/UserRegisterLoginVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/serviceImpl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="875">
+          <caret line="50" column="11" selection-start-line="50" selection-start-column="11" selection-end-line="51" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/3.2.4.RELEASE/spring-webmvc-3.2.4.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="938" column="0" selection-start-line="938" selection-start-column="0" selection-end-line="938" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/3.2.4.RELEASE/spring-webmvc-3.2.4.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/AbstractHandlerMethodAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/3.2.4.RELEASE/spring-webmvc-3.2.4.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="685" column="0" selection-start-line="685" selection-start-column="0" selection-end-line="685" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/3.2.4.RELEASE/spring-webmvc-3.2.4.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="129" column="0" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.2.4.RELEASE/spring-web-3.2.4.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="137" column="0" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beautiful_article_war/src/main/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beautiful_article_common/src/main/java/cn/damai/beautiful_article/common/configurations/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/serviceutils/SMSUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beautiful_article_war/src/main/webapp/WEB-INF/views/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beautiful_article_war/src/main/webapp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-150">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beautiful_article_war/src/main/webapp/WEB-INF/views/dialog/myDialog.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beautiful_article_war/src/main/webapp/WEB-INF/views/main_part/main_top_unlogin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="91" column="83" selection-start-line="91" selection-start-column="78" selection-end-line="91" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beautiful_article_war/src/main/webapp/WEB-INF/views/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="45" column="12" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/service/LoginService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beautiful_article_common/src/main/java/cn/damai/beautiful_article/common/utils/DataResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/3.2.4.RELEASE/spring-webmvc-3.2.4.RELEASE-sources.jar!/org/springframework/web/servlet/ModelAndView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/myEnum/ResultCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/serviceImpl/LoginServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="38" column="62" selection-start-line="38" selection-start-column="62" selection-end-line="38" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beautiful_article_war/src/main/java/cn/damai/beautiful_article/action/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beautiful_article_war/src/main/java/cn/damai/beautiful_article/action/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="84" column="9" selection-start-line="84" selection-start-column="9" selection-end-line="84" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beautiful_article_war/src/main/resources/spring/spring-shiro.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/redis/MemberDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beautiful_article_core/src/main/java/cn/damai/beautiful_article/core/domain/Member.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding>
+            <element signature="e#494#495#0" expanded="false" />
+            <element signature="e#519#520#0" expanded="false" />
+            <element signature="e#554#555#0" expanded="false" />
+            <element signature="e#582#583#0" expanded="false" />
+            <element signature="e#616#617#0" expanded="false" />
+            <element signature="e#647#648#0" expanded="false" />
+            <element signature="e#694#695#0" expanded="false" />
+            <element signature="e#734#735#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beautiful_article_war/src/main/java/cn/damai/beautiful_article/action/RegisterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2825">
+          <caret line="113" column="26" selection-start-line="113" selection-start-column="26" selection-end-line="113" selection-end-column="26" />
+          <folding>
+            <element signature="e#10177#10178#0" expanded="false" />
+            <element signature="e#10207#10208#0" expanded="false" />
+            <element signature="e#10253#10254#0" expanded="false" />
+            <element signature="e#10291#10292#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beautiful_article_war/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-225">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beautiful_article_war/src/main/resources/ehcache-shiro.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beautiful_article_war/src/main/java/cn/damai/beautiful_article/shiro/MyRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>beautiful_article_war:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.24741083" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2724138" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.24741083" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.24741083" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>beautiful_article_war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.24741083" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>taobao-sdk-java</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2724138" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

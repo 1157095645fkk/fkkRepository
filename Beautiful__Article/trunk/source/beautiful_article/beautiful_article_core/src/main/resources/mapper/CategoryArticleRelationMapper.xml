@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cn.damai.beautiful_article.core.dao.CategoryArticleRelationMapper">
+    <sql id="column">category_id,article_id,data_state</sql>
+    <resultMap id="categoryArticleRelationResultMap" type="CategoryArticleRelation">
+        <id property="categoryArticleId" column="category_article_id" />
+        <result property="categoryId" column="category_id" />
+        <result property="articleId" column="article_id" />
+        <result property="dataState" column="data_state" />
+
+    </resultMap>
+    <!-- 插入信息并返回主键id -->
+    <insert id="save" parameterType="CategoryArticleRelation" useGeneratedKeys="true" keyProperty="category_article_id">
+        INSERT INTO category_article_relation  (category_id,article_id,data_state)   VALUES(#{categoryId},#{articleId},#{dataState})
+    </insert>
+
+    <!-- 更新 -->
+    <update id="update" parameterType="CategoryArticleRelation">
+        UPDATE category_article_relation
+        <set>
+            <if test="categoryId != null" >category_id=#{categoryId},</if>
+            <if test="articleId != null" >article_id=#{articleId},</if>
+            <if test="dataState != null" >data_state=#{dataState},</if>
+        </set>
+        WHERE category_article_id=#{categoryArticleId}
+    </update>
+    <!--根据id删除 -->
+    <delete id="deleteById">
+        DELETE FROM category_article_relation WHERE category_article_id=#{categoryArticleId}
+    </delete>
+
+    <!-- 根据id查询 -->
+    <select id="findById" resultMap="categoryArticleRelationResultMap">
+        SELECT categoryArticleId,<include refid="column" />  FROM category_article_relation WHERE category_article_id = #{categoryArticleId} LIMIT  0,1
+    </select>
+</mapper>

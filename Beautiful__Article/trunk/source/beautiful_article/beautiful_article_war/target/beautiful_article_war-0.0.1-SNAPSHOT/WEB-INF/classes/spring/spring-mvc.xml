@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="
+    http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context-3.2.xsd
+    http://www.springframework.org/schema/mvc
+    http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd
+    http://www.springframework.org/schema/util
+    http://www.springframework.org/schema/util/spring-util-3.2.xsd">
+
+    <!-- <mvc:annotation-driven />
+    扫描controller（controller层注入）
+   <context:component-scan base-package="me.explain.caption.controller"/>
+
+   避免IE在ajax请求时，返回json出现下载
+   <bean id="jacksonMessageConverter" class="org.springframework.http.converter.json.MappingJacksonHttpMessageConverter">
+  <property name="supportedMediaTypes">
+   <list>
+    <value>text/html;charset=UTF-8</value>
+    <value>application/json;charset=UTF-8</value>
+   </list>
+  </property>
+ </bean>
+
+ <bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter"
+        p:ignoreDefaultModelOnRedirect="true" >
+            <property name="messageConverters">
+                <list>
+                    <bean class="org.springframework.http.converter.json.MappingJacksonHttpMessageConverter"/>
+                </list>
+            </property>
+        </bean>
+
+   对模型视图添加前后缀
+     <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver"
+      p:prefix="/WEB-INF/jsp/" p:suffix=".jsp"/> -->
+    <!-- 添加注解驱动 -->
+
+    <!-- 启用SpringMVC的注解功能,它会自动注册HandlerMapping、HandlerAdapter、ExceptionResolver的相关实例 -->
+    <mvc:annotation-driven />
+
+    <!-- 它背后注册了很多用于解析注解的处理器,其中就包括<context:annotation-config/>配置的注解所使用的处理器 -->
+    <!-- 所以配置了<context:component-scan base-package="">之后,便无需再配置<context:annotation-config> -->
+    <context:component-scan base-package="cn.damai.beautiful_article.action" />
+    <bean
+            class="org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping" />
+    <bean
+            class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter">
+        <property name="messageConverters">
+            <util:list id="beanList">
+                <ref bean="mappingJacksonHttpMessageConverter" />
+            </util:list>
+        </property>
+    </bean>
+    <bean id="mappingJacksonHttpMessageConverter"
+          class="org.springframework.http.converter.json.MappingJacksonHttpMessageConverter">
+        <property name="supportedMediaTypes">
+            <list>
+                <value>text/html;charset=UTF-8</value>
+            </list>
+        </property>
+    </bean>
+    <!-- 定义跳转的文件的前后缀 -->
+    <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <!-- 这里的配置我的理解是自动给后面action的方法return的字符串加上前缀和后缀，变成一个
+              可用的url地址 -->
+        <property name="prefix" value="/WEB-INF/views/" />
+        <property name="suffix" value=".jsp" />
+    </bean>
+
+    <!-- 由于web.xml中设置是：由SpringMVC拦截所有请求,于是在读取静态资源文件的时候就会受到影响(说白了就是读不到) -->
+    <!-- 经过下面的配置，该标签的作用就是：所有页面中引用"/js/**"的资源，都会从"/resources/js/"里面进行查找 -->
+    <!-- 我们可以访问http://IP:8080/xxx/js/my.css和http://IP:8080/xxx/resources/js/my.css对比出来 -->
+    <!--<mvc:resources mapping="/js/**" location="/resources/js/"/>
+    <mvc:resources mapping="/css/**" location="/resources/css/"/>
+    <mvc:resources mapping="/WEB-INF/**" location="/WEB-INF/"/>-->
+
+    <!-- SpringMVC在超出上传文件限制时，会抛出org.springframework.web.multipart.MaxUploadSizeExceededException -->
+    <!-- 该异常是SpringMVC在检查上传的文件信息时抛出来的，而且此时还没有进入到Controller方法中 -->
+    <bean class="org.springframework.web.servlet.handler.SimpleMappingExceptionResolver">
+        <property name="exceptionMappings">
+            <props>
+                <!-- 遇到MaxUploadSizeExceededException异常时，自动跳转到/WEB-INF/error_fileupload.jsp页面 -->
+                <prop key="org.springframework.web.multipart.MaxUploadSizeExceededException">WEB-INF/error_fileupload</prop>
+                <!-- 处理其它异常(包括Controller抛出的) -->
+                <prop key="java.lang.Throwable">WEB-INF/500</prop>
+            </props>
+        </property>
+    </bean>
+
+
+    <beans>
+        <bean id="viewResolver2" class="httl.web.springmvc.HttlViewResolver">
+            <property name="contentType" value="text/html; charset=UTF-8" />
+        </bean>
+    </beans>
+</beans>
